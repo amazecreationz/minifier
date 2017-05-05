@@ -1,0 +1,20 @@
+{
+  "name": "minifier",
+  "version": "1.0.0",
+  "description": "A NodeJS application to minimize JavaScript and CSS files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node start",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "amazecreationz"
+  ],
+  "author": "Anand Mohan <anandmoghan@amazecreationz.in>",
+  "license": "MIT",
+  "dependencies": {
+    "node-minify": "^2.0.4",
+    "node-watch": "^0.5.3",
+    "nodemon": "^1.11.0"
+  }
+}
