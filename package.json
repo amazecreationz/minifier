@@ -1,7 +1,7 @@
 {
-  "name": "minifier",
+  "name": "minimizer",
   "version": "1.0.0",
-  "description": "A NodeJS application to minimize JavaScript and CSS files.",
+  "description": "Amazecreationz JavaScript and CSS minimizer.",
   "main": "index.js",
   "scripts": {
     "test": "node start",

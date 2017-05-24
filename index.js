@@ -34,7 +34,7 @@ var copyFile = function(file, source, dest) {
 
 var compressJS = function(input, output) {
     compressor.minify({
-        compressor: 'no-compress',
+        compressor: 'uglifyjs',
         input: input,
         output: output,
         callback: function (err, min) {
